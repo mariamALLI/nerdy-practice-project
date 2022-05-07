@@ -1,0 +1,18 @@
+button.svelte-7jk0dw{margin-bottom:20px}button.svelte-7jk0dw:disabled{filter:opacity(0.75)}.caption.svelte-7jk0dw{margin-top:-5px;text-transform:uppercase;font-size:x-small;text-align:left}.story-grid.svelte-7jk0dw{display:grid;gap:10px;justify-content:space-around;grid-template-columns:repeat(auto-fit, 60px);margin-top:5px;margin-bottom:20px}.one.svelte-7jk0dw{opacity:0;-webkit-animation:svelte-7jk0dw-dot 1.3s infinite;-webkit-animation-delay:0.0s;animation:svelte-7jk0dw-dot 1.3s infinite;animation-delay:0.0s}.two.svelte-7jk0dw{opacity:0;-webkit-animation:svelte-7jk0dw-dot 1.3s infinite;-webkit-animation-delay:0.2s;animation:svelte-7jk0dw-dot 1.3s infinite;animation-delay:0.2s}.three.svelte-7jk0dw{opacity:0;-webkit-animation:svelte-7jk0dw-dot 1.3s infinite;-webkit-animation-delay:0.3s;animation:svelte-7jk0dw-dot 1.3s infinite;animation-delay:0.3s}@-webkit-keyframes svelte-7jk0dw-dot{0%{opacity:0}50%{opacity:0}100%{opacity:1}}@keyframes svelte-7jk0dw-dot{0%{opacity:0}50%{opacity:0}100%{opacity:1}}
+:root{--size-avatar:56px;--size-border:2px;--size-flair:18px}.avatar.svelte-15oev96.svelte-15oev96{align-items:center;background-image:linear-gradient(
+      45deg,
+      #00a0f3 15%,
+      #0090d8 35%,
+      #0082d3 50%,
+      #007cc0 65%,
+      #006db4 85%
+    );box-sizing:border-box;display:flex;height:var(--size-avatar);justify-content:center;overflow:hidden;padding:var(--size-border);width:var(--size-avatar)}.avatar#friend.svelte-15oev96.svelte-15oev96{background-image:linear-gradient(
+      45deg,
+      #6f42c1 15%,
+      #683eb5 35%,
+      #6039a8 50%,
+      #59359c 65%,
+      #50308c 85%
+    )}.avatar.svelte-15oev96.svelte-15oev96,.avatar.svelte-15oev96>img.svelte-15oev96{border:var(--size-border) solid var(--vscode-editor-background);border-radius:50%}.avatar.svelte-15oev96>img.svelte-15oev96{border-width:calc(0.5 * var(--size-border));height:auto;margin:0;transform:scale(1.1);transition:transform 0.6s ease-in-out;width:100%}.has-story.svelte-15oev96 img.svelte-15oev96{transform:scale(1)}.unit.svelte-15oev96.svelte-15oev96{cursor:pointer;font-size:calc(var(--vscode-font-size) * 0.7);display:flex;flex-direction:column;justify-content:center;align-items:center}.name-container.svelte-15oev96.svelte-15oev96{margin-top:4px;display:flex}.flair.svelte-15oev96.svelte-15oev96{margin-top:13px;margin-left:25px;height:var(--size-flair);width:var(--size-flair);margin-bottom:-5px;position:absolute}
+
+/*# sourceMappingURL=sidebar.css.map */

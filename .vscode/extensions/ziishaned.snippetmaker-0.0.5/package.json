@@ -1,0 +1,77 @@
+{
+	"name": "snippetmaker",
+	"displayName": "Snippet Maker",
+	"description": "Makes managing snippets easy in VS Code",
+	"version": "0.0.5",
+	"publisher": "ziishaned",
+	"author": {
+		"name": "Zeeshan Ahmad",
+		"email": "ziishaned@gmail.com",
+		"url": "https://github.com/ziishaned"
+	},
+	"icon": "media/logo.png",
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"galleryBanner": {
+		"color": "#2d4794",
+		"theme": "dark"
+	},
+	"keywords": [
+		"snippets",
+		"make snippet"
+	],
+	"categories": [
+		"Other"
+	],
+	"preview": false,
+	"license": "MIT",
+	"homepage": "https://github.com/ziishaned/snippetmaker-vscode",
+	"bugs": {
+		"url": "https://github.com/ziishaned/snippetmaker-vscode/issues",
+		"email": "ziishaned@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ziishaned/snippetmaker-vscode.git"
+	},
+	"activationEvents": [
+		"onCommand:snippetmaker.make_snippet"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "snippetmaker.make_snippet",
+				"title": "SnippetMaker: Make Snippet"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "yarn run compile && node ./node_modules/vscode/bin/test",
+		"prettier:base": "prettier",
+		"prettier:check": "yarn run prettier:base -- --list-different \"src/**/*.{ts,tsx}\"",
+		"prettier:write": "yarn run prettier:base -- --write \"src/**/*.{ts,tsx}\""
+	},
+	"devDependencies": {
+		"@types/strip-json-comments": "0.0.30",
+		"@types/mocha": "^5.2.5",
+		"@types/node": "^10.12.18",
+		"tslint": "^5.12.1",
+		"typescript": "^3.2.4",
+		"vscode": "^1.1.28"
+	},
+	"dependencies": {
+		"strip-json-comments": "^2.0.1"
+	},
+	"__metadata": {
+		"id": "d9cb64f2-2c94-41dd-883c-d9f7553b21e9",
+		"publisherId": "d0953223-4af7-469f-8208-26b72180bb25",
+		"publisherDisplayName": "ziishaned",
+		"installedTimestamp": 1637136576066
+	}
+}
