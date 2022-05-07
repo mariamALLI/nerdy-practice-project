@@ -1,0 +1,7 @@
+[user]
+	name = MOA
+	email = mariam_oa@yahoo.com
+[core]
+	editor = code --wait
+[init]
+	defaultBranch = main
